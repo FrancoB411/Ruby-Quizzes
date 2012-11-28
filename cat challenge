@@ -1,0 +1,19 @@
+#make an array
+@cats = []
+
+#fill it with nulls
+100.times do
+	@cats << nil
+end
+
+#set the "skip_by" number
+@cats_to_skip = 1
+
+#iterate
+@cats.collect! do
+  hat_status = cat ? nil : "hat"
+  cat = hat_status
+end
+
+
+
